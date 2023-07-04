@@ -10,8 +10,8 @@
 </div>
 
 
-<div class="text-danger">
-  SHOW ALL OF THE SONGS IN THIS PLAYLIST HERE
+<div>
+  <p class="text-primary">All songs in playlist!</p>
   {% for song in playlist.songs %}
   <p>{{song.title}} - {{song.artist}}</p>
   {% endfor %}
